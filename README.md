@@ -14,7 +14,15 @@ A tutorial about how to add ssh key in server and how to use it connect to the s
  
  2.Upload the public key to the server
  
-  # You should know:In client,Its name is ssh;In Server,Its name is sshd!!!!!
+  __You should know:In client,Its name is ssh;In Server,Its name is sshd!!!!!__
  
  You need to upload the `id_rsa.pub` and rename it to 'authorized_keys'
  That is means the content in `id_rsa.pub` should be in `~/.ssh/authorized_keys` at last.
+
+# multi-authorized_keys
+
+0.You could add __many__ public keys in a server.
+
+1.The file `~/.ssh/authorized_keys` could include many keys.
+
+***method:everyline include the content of a public key,That is OK!***
