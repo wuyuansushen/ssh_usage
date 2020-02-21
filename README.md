@@ -21,8 +21,8 @@ A tutorial about how to add ssh key in server and how to use it connect to the s
 
 # multi-authorized_keys
 
-0.You could add __many__ public keys in a server.
+ 0.You could add __many__ public keys in a server.
 
-1.The file `~/.ssh/authorized_keys` could include many keys.
+ 1.The file `~/.ssh/authorized_keys` could include many keys.
 
 ***method:everyline include the content of a public key,That is OK!***
