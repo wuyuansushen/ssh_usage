@@ -26,3 +26,9 @@ A tutorial about how to add ssh key in server and how to use it connect to the s
  1.The file `~/.ssh/authorized_keys` could include many keys.
 
 ***method:everyline include the content of a public key,That is OK!***
+
+# Port setting difference between ***ssh*** and ***scp***
+
+ssh: use `-p` to assign port
+
+scp: use `-P` to assign port
