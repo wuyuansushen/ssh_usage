@@ -35,4 +35,4 @@ scp: use `-P` to assign port
 
 # Use in Termux(Android for Linux emulator)
 
-Permisions of the private key must be 400,either the `ssh` will ignore it for safe when you use `ssh` to servers 
+Permissions of the private key must be 400,either the `ssh` will ignore it for safe when you use `ssh` to servers 
