@@ -32,3 +32,7 @@ A tutorial about how to add ssh key in server and how to use it connect to the s
 ssh: use `-p` to assign port
 
 scp: use `-P` to assign port
+
+# Use in Termux(Android for Linux emulator)
+
+Permisions of the private key must be 400,either the `ssh` will ignore it for safe when you use `ssh` to servers 
