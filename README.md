@@ -39,3 +39,10 @@ Permissions of the private key must be 400,either the `ssh` will ignore it for s
 
 # Use *~/.ssh/config* to simplify your connection operation
 
+## Template:
+```
+	Host <shortAlias>
+		HostName < IP | FQDN >
+		Port <portNumber>
+		User <loginUser>
+```
