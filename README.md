@@ -1,4 +1,4 @@
-# sshkey_usage
+# sshkey usage
 A tutorial about how to add ssh key in server and how to use it connect to the server in client
 
 1.Generate a pair of keys
