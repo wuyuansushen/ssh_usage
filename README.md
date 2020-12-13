@@ -11,6 +11,7 @@ A tutorial about how to add ssh key in server and how to use it connect to the s
  
  At this,you have 2 files(`id_rsa.pub` and `id_rsa`) in `~/.ssh/` diretory
  
+ >:warning: Set permission `0600` to file `~/.ssh/authorized_keys`
  
  2.Upload the public key to the server
  
